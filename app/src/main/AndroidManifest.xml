@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="studydemo.www.doloop.com.studtydemo" >
 
     <application
+        tools:replace="android:icon"
         android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".hook.ProxyActivity"/>
+        <activity android:name=".router.RouterActivity1"/>
     </application>
 
 </manifest>

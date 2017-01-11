@@ -51,10 +51,10 @@ public class RxJavaFragment extends BaseFragmnet {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        img = (ImageView) view.findViewById(R.id.img);
-        textView1 = (TextView) view.findViewById(R.id.txt1);
-        textView2 = (TextView) view.findViewById(R.id.txt2);
-        btn = (Button) view.findViewById(R.id.btn);
+        img = $(R.id.img);
+        textView1 = $(R.id.txt1);
+        textView2 = $(R.id.txt2);
+        btn = $(R.id.btn);
 //        btn.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {

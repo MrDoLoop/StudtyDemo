@@ -44,8 +44,8 @@ public class HookFragment extends BaseFragmnet {
 
         hookClipboardManager();
 
-        tv = (TextView) view.findViewById(R.id.text);
-        btn = (Button) view.findViewById(R.id.btn);
+        tv = $(R.id.text);
+        btn = $(R.id.btn);
         btn.setOnClickListener(new View.OnClickListener() {
 
             @Override

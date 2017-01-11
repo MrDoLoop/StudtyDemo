@@ -2,6 +2,7 @@ package studydemo.www.doloop.com.studtydemo;
 
 import android.app.Application;
 
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.antfortune.freeline.FreelineCore;
 
 import studydemo.www.doloop.com.studtydemo.hook.AmsUtils;
@@ -15,9 +16,11 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        mInstance = this;
         FreelineCore.init(this);
         AmsUtils.initHook();
-        mInstance = this;
+        ARouter.init(this);
+        ARouter.openDebug();
     }
 
     public static Application getAppInstance() {

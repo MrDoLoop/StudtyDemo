@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.antfortune.freeline'
+apply plugin: 'com.neenbedankt.android-apt'
 
 android {
     compileSdkVersion 25
@@ -59,6 +60,12 @@ android {
 
 }
 
+apt {
+    arguments {
+        moduleName project.getName();
+    }
+}
+
 dependencies {
     // https://jcenter.bintray.com/ 可以搜索版本
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -70,4 +77,8 @@ dependencies {
     compile 'com.jakewharton.rxbinding:rxbinding:1.0.0'
     compile 'io.reactivex:rxjava:1.1.8'
     compile 'io.reactivex:rxandroid:1.2.1'
+
+    apt 'com.alibaba:arouter-compiler:1.0.1'
+    compile 'com.alibaba:arouter-api:1.0.2'
+
 }
