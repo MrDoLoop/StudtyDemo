@@ -1,0 +1,107 @@
+{
+    "android_gradle_plugin_version": "2.2.2",
+    "apk_path": "/Users/zhaonan/Desktop/StudtyDemo/app/build/outputs/apk/defaultName-debug-v1.0_dev(2147483647).apk",
+    "apt": {
+        
+    },
+    "apt_libraries": {
+        "dagger": false,
+        "butterknife": false
+    },
+    "auto_dependency": true,
+    "build_cache_dir": "/Users/zhaonan/Desktop/StudtyDemo/app/build/freeline",
+    "build_directory": "/Users/zhaonan/Desktop/StudtyDemo/app/build",
+    "build_script": "./gradlew :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "/Users/zhaonan/Library/Android/sdk/build-tools/25.0.2",
+    "build_tools_version": "25.0.2",
+    "compile_sdk_directory": "/Users/zhaonan/Library/Android/sdk/platforms/android-25",
+    "compile_sdk_version": "android-25",
+    "databinding": [
+        
+    ],
+    "databinding_compiler_jar": "",
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "studydemo.www.doloop.com.studtydemo",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "/Users/zhaonan/Desktop/StudtyDemo",
+    "freeline_gradle_plugin_version": "0.8.4",
+    "java_home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home",
+    "launcher": "studydemo.www.doloop.com.studtydemo.MainActivity",
+    "main_assets_directory": [
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/assets",
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/assets"
+    ],
+    "main_jniLibs_directory": [
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jniLibs",
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jniLibs"
+    ],
+    "main_jni_directory": [
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jni",
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jni"
+    ],
+    "main_manifest_path": "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "/Users/zhaonan/Desktop/StudtyDemo/app/build/generated/source/r/debug/R.java",
+    "main_res_directory": [
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/res",
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/res"
+    ],
+    "main_src_directory": [
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/java",
+        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/java"
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "/Users/zhaonan/Desktop/StudtyDemo/app"
+        }
+    ],
+    "package": "studydemo.www.doloop.com.studtydemo",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/assets",
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/assets"
+            ],
+            "main_jniLibs_directory": [
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jniLibs",
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jniLibs"
+            ],
+            "main_jni_directory": [
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jni",
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jni"
+            ],
+            "main_manifest_path": "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/AndroidManifest.xml",
+            "main_res_directory": [
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/res",
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/res"
+            ],
+            "main_src_directory": [
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/java",
+                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "retrolambda": {
+        
+    },
+    "root_dir": "/Users/zhaonan/Desktop/StudtyDemo",
+    "sdk_directory": "/Users/zhaonan/Library/Android/sdk",
+    "use_jdk8": true
+}
