@@ -15,3 +15,6 @@ https://github.com/Sunzxyong/UrlRouter
 https://github.com/campusappcn/AndRouter
 https://gold.xitu.io/entry/58417323ac502e006b9809d9
 6. 反射工具JOOR
+7. 通过hook实现插件
+http://weishu.me/2016/03/21/understand-plugin-framework-activity-management/
+https://github.com/tiann/understand-plugin-framework

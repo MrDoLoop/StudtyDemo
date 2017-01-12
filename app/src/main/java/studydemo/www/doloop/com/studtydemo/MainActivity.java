@@ -71,11 +71,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationBar.On
                 }
                 ft.commitAllowingStateLoss();
 
-                int color = getBottomItemActiveColor(position);
-                getSupportActionBar().setBackgroundDrawable(new ColorDrawable(color));
-                if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    getWindow().setStatusBarColor(color);
-                }
+                setBarColor(position);
             }
         }
 
@@ -98,6 +94,15 @@ public class MainActivity extends BaseActivity implements BottomNavigationBar.On
     @Override
     public void onTabReselected(int position) {
 
+    }
+
+
+    private void setBarColor(int position) {
+        int color = getBottomItemActiveColor(position);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(color));
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            getWindow().setStatusBarColor(color);
+        }
     }
 
 

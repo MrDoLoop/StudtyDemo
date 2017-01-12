@@ -128,7 +128,7 @@ public class AmsUtils {
 				}
 				
 				Intent rawIntent = (Intent) args[index];
-				Intent newIntent = new Intent();
+				Intent newIntent = new Intent(rawIntent);
 				String targetPkg = BaseApplication.getAppInstance().getPackageName();
 				ComponentName componentName = new ComponentName(targetPkg, ProxyActivity.class.getName());
 				newIntent.setComponent(componentName);
