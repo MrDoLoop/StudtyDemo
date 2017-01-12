@@ -3,7 +3,6 @@ package studydemo.www.doloop.com.studtydemo.hook;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
@@ -20,7 +19,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Map;
 
-import studydemo.www.doloop.com.studtydemo.BaseFragmnet;
+import studydemo.www.doloop.com.studtydemo.base.BaseFragmnet;
 import studydemo.www.doloop.com.studtydemo.R;
 
 /**
@@ -50,9 +49,7 @@ public class HookFragment extends BaseFragmnet {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), SecondActivity.class);
-                intent.getComponent();
-                startActivity(intent);
+                SecondActivity.startMe(getActivity());
             }
         });
 

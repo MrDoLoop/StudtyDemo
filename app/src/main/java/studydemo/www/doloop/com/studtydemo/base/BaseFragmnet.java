@@ -1,4 +1,4 @@
-package studydemo.www.doloop.com.studtydemo;
+package studydemo.www.doloop.com.studtydemo.base;
 
 import android.support.v4.app.Fragment;
 import android.view.View;
@@ -8,8 +8,16 @@ import android.view.View;
  */
 
 public class BaseFragmnet extends Fragment {
+
+    protected View mRootView;
+
     public <T extends View> T $(int id) {
-        if (getView() != null) {
+
+        if(mRootView == null) {
+            mRootView =  getView();
+        }
+
+        if (mRootView != null) {
             return (T) getView().findViewById(id);
         }
         return null;

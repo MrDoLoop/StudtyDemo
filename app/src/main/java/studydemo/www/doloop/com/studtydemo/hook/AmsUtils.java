@@ -11,7 +11,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-import studydemo.www.doloop.com.studtydemo.MyApplication;
+import studydemo.www.doloop.com.studtydemo.base.BaseApplication;
 
 public class AmsUtils {
 	//https://android.googlesource.com/platform/frameworks/base/+/742a67127366c376fdf188ff99ba30b27d3bf90c/core/java/android/app/ActivityManagerNative.java
@@ -129,7 +129,7 @@ public class AmsUtils {
 				
 				Intent rawIntent = (Intent) args[index];
 				Intent newIntent = new Intent();
-				String targetPkg = MyApplication.getAppInstance().getPackageName();
+				String targetPkg = BaseApplication.getAppInstance().getPackageName();
 				ComponentName componentName = new ComponentName(targetPkg, ProxyActivity.class.getName());
 				newIntent.setComponent(componentName);
 				newIntent.putExtra(TARGET_INTENT_ARG,rawIntent);

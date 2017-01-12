@@ -21,8 +21,8 @@ import studydemo.www.doloop.com.studtydemo.rxjava.RxJavaFragment;
 public class FragmentsDef {
 
     public enum FRAGMENT_DEMO {
-        RXJAVA(new RxJavaFragment(), "RxJava", R.drawable.ic_home_white_24dp, R.color.colorPrimary),
-        ROUTER(new RouterFragment(), "Router", R.drawable.ic_home_white_24dp, R.color.teal),
+        ROUTER(new RouterFragment(), "Router", R.drawable.ic_home_white_24dp, R.color.colorPrimary),
+        RXJAVA(new RxJavaFragment(), "RxJava", R.drawable.ic_home_white_24dp, R.color.teal),
         HOOK(new HookFragment(), "Hook", R.drawable.ic_book_white_24dp, R.color.blue);
 
         private Fragment mFragment;

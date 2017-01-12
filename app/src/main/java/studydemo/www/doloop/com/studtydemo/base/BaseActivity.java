@@ -1,4 +1,4 @@
-package studydemo.www.doloop.com.studtydemo;
+package studydemo.www.doloop.com.studtydemo.base;
 
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;

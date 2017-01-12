@@ -7,9 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.alibaba.android.arouter.launcher.ARouter;
-
-import studydemo.www.doloop.com.studtydemo.BaseFragmnet;
+import cn.campusapp.router.Router;
+import studydemo.www.doloop.com.studtydemo.base.BaseFragmnet;
 import studydemo.www.doloop.com.studtydemo.R;
 
 /**
@@ -33,8 +32,11 @@ public class RouterFragment extends BaseFragmnet {
         mTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ARouter.getInstance().build("/test/1").navigation();
-                //startActivity(new Intent(getActivity(), RouterActivity1.class));
+//                ActivityRoute activityRoute = (ActivityRoute) Router.getRoute("activity://RouterActivity");
+//                activityRoute.withParams("txt", "传递进来的msg").setAnimation(getActivity(), android.R.anim.fade_in, android.R.anim.fade_out).open();
+                Router.open("activity://RouterActivity/传递进来的msg");
+                // 统一路径的冲突怎么解决?
+                //ARouter.getInstance().build("/test/1").navigation();
             }
         });
     }

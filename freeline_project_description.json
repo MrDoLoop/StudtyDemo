@@ -1,16 +1,25 @@
 {
     "android_gradle_plugin_version": "2.2.2",
-    "apk_path": "/Users/zhaonan/Desktop/StudtyDemo/app/build/outputs/apk/defaultName-debug-v1.0_dev(2147483647).apk",
+    "apk_path": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/outputs/apk/defaultName-debug-v1.0_dev(2147483647).apk",
     "apt": {
-        
+        "app": {
+            "aptArgs": [
+                
+            ],
+            "aptOutput": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/generated/source/apt/debug",
+            "disableDiscovery": false,
+            "enabled": true,
+            "processor": null,
+            "processorPath": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.ashokvarma.android/bottom-navigation-bar/1.3.1/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.jakewharton.rxbinding/rxbinding/1.0.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.github.campusappcn.AndRouter/router/1.2.4/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/intermediates/exploded-aar/com.antfortune.freeline/runtime/0.8.4/jars/classes.jar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.github.campusappcn.AndRouter/annotation/1.2.4/6eec002e46abfc9a2042efd85dcb7385ec94bc4c/annotation-1.2.4.jar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/3.1.0/3ab2aedaeb4bfa698d0021cb843b2040fbf57fc/timber-3.1.0.jar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.3/7fe1a94c1aeb958acc876fe616922cc191f3222c/rxjava-1.2.3.jar:/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/libs/joor-0.9.6.jar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.github.campusappcn.AndRouter/compiler/1.2.4/bfa22753380bfa7564ea4eb99e02173fd26e3faf/compiler-1.2.4.jar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/25.1.0/appcompat-v7-25.1.0.aar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.ashokvarma.android/bottom-navigation-bar/1.3.1/d0f0dcbf9a2d7d5fcd3390d18e20d2abeaf6def/bottom-navigation-bar-1.3.1.aar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.jakewharton.rxbinding/rxbinding/1.0.0/6ab938ca0edb381a426980c420ebe13dc37ebbbf/rxbinding-1.0.0.aar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/io.reactivex/rxandroid/1.2.1/78179b876174994f66432947fa15338ba13747a4/rxandroid-1.2.1.aar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.github.campusappcn.AndRouter/router/1.2.4/566eb997da69cb416790e780a2447cb4390de188/router-1.2.4.aar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.6.1/5395a1879f4607c5f27fc8c97b1edcfe01b1316c/javapoet-1.6.1.jar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.google.auto.service/auto-service/1.0-rc2/51033a5b8fcf7039159e35b6878f106ccd5fb35f/auto-service-1.0-rc2.jar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/25.1.0/support-v4-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/25.1.0/support-vector-drawable-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/animated-vector-drawable/25.1.0/animated-vector-drawable-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/design/24.2.1/design-24.2.1.aar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.google.auto/auto-common/0.3/4073ab16ab4aceb9a217273da6442166bf51ae16/auto-common-0.3.jar:/Users/zhaonan/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.1/recyclerview-v7-24.2.1.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-media-compat/25.1.0/support-media-compat-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-core-utils/25.1.0/support-core-utils-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.1.0/support-fragment-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-compat/25.1.0/support-compat-25.1.0.aar:/Users/zhaonan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-core-ui/25.1.0/support-core-ui-25.1.0.aar"
+        }
     },
     "apt_libraries": {
         "dagger": false,
         "butterknife": false
     },
     "auto_dependency": true,
-    "build_cache_dir": "/Users/zhaonan/Desktop/StudtyDemo/app/build/freeline",
-    "build_directory": "/Users/zhaonan/Desktop/StudtyDemo/app/build",
+    "build_cache_dir": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/freeline",
+    "build_directory": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build",
     "build_script": "./gradlew :app:assembleDebug",
     "build_script_work_directory": "",
     "build_tools_directory": "/Users/zhaonan/Library/Android/sdk/build-tools/25.0.2",
@@ -31,33 +40,33 @@
     "extra_dep_res_paths": [
         
     ],
-    "freeline_cache_dir": "/Users/zhaonan/Desktop/StudtyDemo",
+    "freeline_cache_dir": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo",
     "freeline_gradle_plugin_version": "0.8.4",
     "java_home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home",
     "launcher": "studydemo.www.doloop.com.studtydemo.MainActivity",
     "main_assets_directory": [
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/assets",
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/assets"
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/assets",
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/assets"
     ],
     "main_jniLibs_directory": [
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jniLibs",
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jniLibs"
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/jniLibs",
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/jniLibs"
     ],
     "main_jni_directory": [
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jni",
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jni"
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/jni",
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/jni"
     ],
-    "main_manifest_path": "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/AndroidManifest.xml",
+    "main_manifest_path": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/AndroidManifest.xml",
     "main_project_dir": "app",
     "main_project_name": "app",
-    "main_r_path": "/Users/zhaonan/Desktop/StudtyDemo/app/build/generated/source/r/debug/R.java",
+    "main_r_path": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/build/generated/source/r/debug/R.java",
     "main_res_directory": [
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/res",
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/res"
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/res",
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/res"
     ],
     "main_src_directory": [
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/java",
-        "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/java"
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/java",
+        "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/java"
     ],
     "module_dependencies": {
         "app": [
@@ -67,7 +76,7 @@
     "modules": [
         {
             "name": "app",
-            "path": "/Users/zhaonan/Desktop/StudtyDemo/app"
+            "path": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app"
         }
     ],
     "package": "studydemo.www.doloop.com.studtydemo",
@@ -75,25 +84,25 @@
     "project_source_sets": {
         "app": {
             "main_assets_directory": [
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/assets",
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/assets"
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/assets",
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/assets"
             ],
             "main_jniLibs_directory": [
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jniLibs",
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jniLibs"
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/jniLibs",
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/jniLibs"
             ],
             "main_jni_directory": [
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/jni",
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/jni"
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/jni",
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/jni"
             ],
-            "main_manifest_path": "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/AndroidManifest.xml",
+            "main_manifest_path": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/AndroidManifest.xml",
             "main_res_directory": [
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/res",
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/res"
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/res",
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/res"
             ],
             "main_src_directory": [
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/debug/java",
-                "/Users/zhaonan/Desktop/StudtyDemo/app/src/main/java"
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/debug/java",
+                "/Users/zhaonan/AndroidStudioProjects/StudtyDemo/app/src/main/java"
             ]
         }
     },
@@ -101,7 +110,7 @@
     "retrolambda": {
         
     },
-    "root_dir": "/Users/zhaonan/Desktop/StudtyDemo",
+    "root_dir": "/Users/zhaonan/AndroidStudioProjects/StudtyDemo",
     "sdk_directory": "/Users/zhaonan/Library/Android/sdk",
     "use_jdk8": true
 }

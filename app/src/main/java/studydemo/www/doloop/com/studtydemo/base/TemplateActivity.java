@@ -1,18 +1,15 @@
-package studydemo.www.doloop.com.studtydemo.router;
+package studydemo.www.doloop.com.studtydemo.base;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
-import com.alibaba.android.arouter.facade.annotation.Route;
-
-import studydemo.www.doloop.com.studtydemo.BaseActivity;
 import studydemo.www.doloop.com.studtydemo.R;
 
 /**
  * Created by zhaonan on 17/1/11.
  */
-@Route(path = "/test/1")
-public class RouterActivity1 extends BaseActivity {
+public class TemplateActivity extends BaseActivity {
 
     private TextView mTv;
 
@@ -21,6 +18,12 @@ public class RouterActivity1 extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text_view);
         mTv = $(R.id.text_view);
-        mTv.setText("RouterActivity");
+        mTv.setText("模板Activity");
+        mTv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
     }
 }

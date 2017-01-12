@@ -16,6 +16,8 @@ import org.joor.Reflect;
 import java.util.ArrayList;
 import java.util.List;
 
+import studydemo.www.doloop.com.studtydemo.base.BaseActivity;
+
 public class MainActivity extends BaseActivity implements BottomNavigationBar.OnTabSelectedListener {
 
     private List<Fragment> mFragments;

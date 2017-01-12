@@ -22,7 +22,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 import rx.functions.Func1;
 import rx.schedulers.Schedulers;
-import studydemo.www.doloop.com.studtydemo.BaseFragmnet;
+import studydemo.www.doloop.com.studtydemo.base.BaseFragmnet;
 import studydemo.www.doloop.com.studtydemo.R;
 
 /**

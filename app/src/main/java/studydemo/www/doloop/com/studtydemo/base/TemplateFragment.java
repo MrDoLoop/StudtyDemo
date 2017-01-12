@@ -1,4 +1,4 @@
-package studydemo.www.doloop.com.studtydemo;
+package studydemo.www.doloop.com.studtydemo.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import studydemo.www.doloop.com.studtydemo.R;
 
 /**
  * Created by zhaonan on 17/1/11.
