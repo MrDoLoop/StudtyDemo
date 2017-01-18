@@ -18,3 +18,6 @@ https://gold.xitu.io/entry/58417323ac502e006b9809d9
 7. 通过hook实现插件
 http://weishu.me/2016/03/21/understand-plugin-framework-activity-management/
 https://github.com/tiann/understand-plugin-framework
+8. 屏幕截图工具 Falcon
+9. 多线程测试
+10. log工具timber

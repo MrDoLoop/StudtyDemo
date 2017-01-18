@@ -19,8 +19,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Map;
 
-import studydemo.www.doloop.com.studtydemo.base.BaseFragmnet;
 import studydemo.www.doloop.com.studtydemo.R;
+import studydemo.www.doloop.com.studtydemo.base.BaseFragmnet;
+import studydemo.www.doloop.com.studtydemo.utils.L;
+import timber.log.Timber;
 
 /**
  * Created by zhaonan on 17/1/10.
@@ -87,14 +89,14 @@ public class HookFragment extends BaseFragmnet {
                 this.base = asInterface.invoke(null, base);
             }catch(Exception e){
                 e.printStackTrace();
-                Log.i("ttt", "eee "+e.getLocalizedMessage());
+                L.e(e.getLocalizedMessage());
             }
         }
         @Override
         public Object invoke(Object proxy, Method method, Object[] args)
                 throws Throwable {
 
-            Log.i("ttt", "method.getName "+method.getName());
+            Timber.i("method.getName "+method.getName());
 
             if("hasPrimaryClip".equals(method.getName())) {
                 return false;

@@ -12,6 +12,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 import studydemo.www.doloop.com.studtydemo.base.BaseApplication;
+import studydemo.www.doloop.com.studtydemo.utils.L;
 
 public class AmsUtils {
 	//https://android.googlesource.com/platform/frameworks/base/+/742a67127366c376fdf188ff99ba30b27d3bf90c/core/java/android/app/ActivityManagerNative.java
@@ -114,13 +115,12 @@ public class AmsUtils {
 		
 		@Override
 		public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-			Log.i("ttt", "method "+method.getName());
+			L.i("method "+method.getName());
 			if("startActivity".equals(method.getName())) {
 				// replace targetClass in original Intent
 				
 				int index = 0;
 				for(int i = 0; i < args.length;i++) {
-					Log.i("ttt", "args "+args[i].getClass());
 					if(args[i] instanceof Intent) {
 						index = i;
 						break;

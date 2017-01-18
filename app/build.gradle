@@ -25,7 +25,6 @@ android {
         hack true
     }
 
-
     // debug build 修改verCode
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
@@ -49,7 +48,8 @@ android {
                     variant.mergedFlavor.versionName = versionName + "_dev"
 
                     // 设置verCode
-                    variant.mergedFlavor.versionCode = Integer.MAX_VALUE //manifestParser.getVersionCode()
+                    variant.mergedFlavor.versionCode = Integer.MAX_VALUE
+                    //manifestParser.getVersionCode()
 
                     fileName = "${flavorName}-${variant.buildType.name}-v${variant.versionName}(${variant.versionCode}).apk";
                     println fileName
@@ -62,11 +62,11 @@ android {
 }
 
 // 阿里路由
-//apt {
-//    arguments {
-//        moduleName project.getName();
-//    }
-//}
+apt {
+    arguments {
+        moduleName project.getName();
+    }
+}
 
 dependencies {
     // https://jcenter.bintray.com/ 可以搜索版本
@@ -81,10 +81,13 @@ dependencies {
     compile 'io.reactivex:rxandroid:1.2.1'
 
     // 阿里路由
-//    apt 'com.alibaba:arouter-compiler:1.0.1'
-//    compile 'com.alibaba:arouter-api:1.0.2'
+    apt 'com.alibaba:arouter-compiler:1.0.1'
+    compile 'com.alibaba:arouter-api:1.0.3'
 
-
+    // 另一种路由
     compile 'com.github.campusappcn.AndRouter:router:1.2.4'
     apt 'com.github.campusappcn.AndRouter:compiler:1.2.4'
+
+    // log
+    compile 'com.jakewharton.timber:timber:4.5.0'
 }
