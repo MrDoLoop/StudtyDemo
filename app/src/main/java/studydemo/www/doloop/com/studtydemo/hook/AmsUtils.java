@@ -27,7 +27,7 @@ public class AmsUtils {
 		hookAMS();
 		hookSystemHandler();
 	}
-	
+
 	private static void hookAMS() {
 		try {
 			Class<?> activityManagerNativeClass = Class.forName("android.app.ActivityManagerNative");

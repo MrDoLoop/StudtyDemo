@@ -5,13 +5,22 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.3' // 升级2.2.3后阿里路由失效
+        classpath 'com.android.tools.build:gradle:2.2.3' // 升级2.2.3后阿里路由失效
 
         // freeline编译
         classpath 'com.antfortune.freeline:gradle:0.8.4'
 
         // 阿里路由
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
+        // aspectJ
+        classpath 'org.aspectj:aspectjtools:1.8.10'
+
+        // hugo debug工具
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.2.1'
+
+        //realm 数据库
+        classpath "io.realm:realm-gradle-plugin:2.2.2"
     }
 }
 

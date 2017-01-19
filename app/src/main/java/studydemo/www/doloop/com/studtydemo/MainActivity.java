@@ -16,6 +16,7 @@ import org.joor.Reflect;
 import java.util.ArrayList;
 import java.util.List;
 
+import hugo.weaving.DebugLog;
 import studydemo.www.doloop.com.studtydemo.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements BottomNavigationBar.OnTabSelectedListener {
@@ -57,6 +58,7 @@ public class MainActivity extends BaseActivity implements BottomNavigationBar.On
     }
 
     @Override
+    @DebugLog
     public void onTabSelected(int position) {
         if (mFragments != null) {
             if (position < mFragments.size()) {

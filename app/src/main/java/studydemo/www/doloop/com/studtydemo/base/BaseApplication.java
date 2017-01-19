@@ -6,6 +6,7 @@ import com.alibaba.android.arouter.launcher.ARouter;
 import com.antfortune.freeline.FreelineCore;
 
 import cn.campusapp.router.Router;
+import io.realm.Realm;
 import studydemo.www.doloop.com.studtydemo.hook.AmsUtils;
 import timber.log.Timber;
 
@@ -33,6 +34,9 @@ public class BaseApplication extends Application {
         Router.initActivityRouter(this);
 
         Timber.plant(new Timber.DebugTree());
+
+        // realm初始化
+        Realm.init(this);
     }
 
     public static Application getAppInstance() {

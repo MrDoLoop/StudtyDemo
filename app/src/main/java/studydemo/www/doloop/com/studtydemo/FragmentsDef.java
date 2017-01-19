@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import studydemo.www.doloop.com.studtydemo.hook.HookFragment;
+import studydemo.www.doloop.com.studtydemo.realm.RealmFragment;
 import studydemo.www.doloop.com.studtydemo.router.RouterFragment;
 import studydemo.www.doloop.com.studtydemo.rxjava.RxJavaFragment;
 
@@ -22,6 +23,7 @@ public class FragmentsDef {
 
     public enum FRAGMENT_DEMO {
         //MULTI_THREAD(new MultiThreadFragment(), "MultiThread", R.drawable.ic_home_white_24dp, R.color.colorPrimary),
+        REALM(new RealmFragment(), "Realm", R.drawable.ic_home_white_24dp, R.color.colorPrimary),
         ROUTER(new RouterFragment(), "Router", R.drawable.ic_home_white_24dp, R.color.brown),
         RXJAVA(new RxJavaFragment(), "RxJava", R.drawable.ic_home_white_24dp, R.color.teal),
         HOOK(new HookFragment(), "Hook", R.drawable.ic_book_white_24dp, R.color.blue);

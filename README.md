@@ -21,3 +21,12 @@ https://github.com/tiann/understand-plugin-framework
 8. 屏幕截图工具 Falcon
 9. 多线程测试
 10. log工具timber
+11. aspectJ
+http://www.jianshu.com/p/bb9343e8af17
+http://blog.csdn.net/crazy__chen/article/details/52014672
+http://blog.csdn.net/innost/article/details/49387395
+12. hogu debug工具
+13. realm
+https://realm.io/docs/java/latest/#realms
+http://blog.csdn.net/shareye1992/article/details/50789216
+http://blog.csdn.net/qibin0506/article/details/49905643

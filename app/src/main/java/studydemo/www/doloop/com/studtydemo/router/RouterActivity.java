@@ -3,13 +3,14 @@ package studydemo.www.doloop.com.studtydemo.router;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 
 import cn.campusapp.router.annotation.RouterMap;
+import hugo.weaving.DebugLog;
 import studydemo.www.doloop.com.studtydemo.R;
 import studydemo.www.doloop.com.studtydemo.base.BaseActivity;
+import studydemo.www.doloop.com.studtydemo.utils.T;
 
 /**
  * Created by zhaonan on 17/1/11.
@@ -25,6 +26,7 @@ public class RouterActivity extends BaseActivity {
     private boolean key3;
 
     @Override
+    @DebugLog
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.text_view);
@@ -43,6 +45,6 @@ public class RouterActivity extends BaseActivity {
 
 
         String msg = "key1:" + key1 + "\nkey2:" + key2 + "\nkey3:" + key3;
-        Toast.makeText(this, msg ,Toast.LENGTH_SHORT).show();
+        T.show(msg);
     }
 }
